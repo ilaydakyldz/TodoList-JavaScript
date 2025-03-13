@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yapilacaklar Listesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Yapilacaklar Listesi</h1>
+        
+        <div class="todo-input">
+            <input type="text" id="task-input" placeholder="Yeni görev ekleyin...">
+            <button id="add-button">Ekle</button>
+        </div>
+        
+        <div class="filter-buttons">
+            <button id="all">Tümü</button>
+            <button id="active">Aktif</button>
+            <button id="completed">Tamamlanan</button>
+        </div>
+        
+        <ul id="task-list">
+            <!-- Görevler JavaScript ile buraya eklenecek -->
+        </ul>
+        
+        <div class="clear-buttons">
+            <button id="clear-completed">Tamamlananları Temizle</button>
+            <button id="clear-all">Tümünü Temizle</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
